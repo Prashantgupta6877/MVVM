@@ -10,6 +10,9 @@ import code.com.mvvmexample.models.ModelPlace
 import code.com.mvvmexample.viewmodel.MainActivityViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
+/**
+ * Created by Prashant Gupta on 06,February,2019
+ */
 class MainActivity : AppCompatActivity() {
     private lateinit var adapter: RecyclerAdapter
     private lateinit var viewModel: MainActivityViewModel

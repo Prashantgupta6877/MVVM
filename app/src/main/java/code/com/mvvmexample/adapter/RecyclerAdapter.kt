@@ -11,6 +11,9 @@ import com.bumptech.glide.Glide
 import de.hdodenhof.circleimageview.CircleImageView
 import kotlinx.android.synthetic.main.layout_item.view.*
 
+/**
+ * Created by Prashant Gupta on 06,February,2019
+ */
 class RecyclerAdapter(var context: Context, var placesList: List<ModelPlace>) :
         RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

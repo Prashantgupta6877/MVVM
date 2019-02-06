@@ -1,8 +1,10 @@
 package code.com.mvvmexample.repository
-
 import androidx.lifecycle.MutableLiveData
 import code.com.mvvmexample.models.ModelPlace
 
+/**
+ * Created by Prashant Gupta on 06,February,2019
+ */
 object PlacesRepository {
     private var placeList = mutableListOf<ModelPlace>()
 
